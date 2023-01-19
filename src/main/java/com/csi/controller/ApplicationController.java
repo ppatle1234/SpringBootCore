@@ -33,5 +33,10 @@ public class ApplicationController {
     {
         return "dgil";
     }
+
+    @GetMapping("/state")
+    public String states(){
+        return "MAHARASHTRA";
+    }
 }
 
